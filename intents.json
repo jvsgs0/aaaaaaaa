@@ -1,0 +1,27 @@
+{"intents": [
+    {"tag": "saudacao",
+     "patterns": ["Ola!!", "Como voce esta?", "Tem alguem ai?",
+                    "Oi","Oie", "Alo"],
+     "responses": ["Ola!!, obrigado por perguntar.", "Que bom ver voce novamente.", 
+                    "Ola, como posso ajudar?"]
+    },
+    {"tag": "despedida",
+     "patterns": ["Tchau", "Nos vemos depois", "Adeus", "Foi bom falar com voce, tchau", 
+                  "Ate a proxima"],
+     "responses": ["Nos vemos!", "Tenha um otimo dia", "Tchau! Volte logo.",
+                   "Tenha um excelente dia"]            
+    },
+    {"tag": "semresposta",
+     "patterns": [""],
+     "responses": ["Nao compreendi o que quis dizer.", "Nao entendi o que voce disse.",
+                   "Poderia repetir?"]            
+    },
+    {"tag": "agradecimento",
+     "patterns": ["Obrigado", "Valeu", "Vlw", "Agradesso"],
+     "responses": ["Nao a de quer.", "De nada.",
+                   "Sem problemas!", "Por nada."]            
+    }
+  ]
+}
+
+    
